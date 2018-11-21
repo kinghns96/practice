@@ -1,0 +1,263 @@
+body{
+	margin:0 auto;
+	padding:0;
+	
+}
+
+/* GLOBAL*/
+.main{
+	background-image: url(../images/pizza_02.jpg);
+	height:100vh;
+	background-position:center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size:cover;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+
+}
+
+/*HEADER*/
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pizza_02.jpg);
+	background-color:transparent;
+	color:#fff;
+	padding-top:15px;
+	min-height:70px;
+	border-bottom:5px #ca0b0b solid;
+
+
+	
+}
+header a {
+	color:#FFF;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:16px;
+	float:right;
+	margin-top:4px;
+}
+header #branding{
+	float:left;
+}
+header #branding h1{
+	padding-top:10px;
+	margin:0;
+	cursor:pointer;
+}
+.highlight{
+  color:green;
+  font-weight:bold;
+  font-size:40px;  
+}
+.highlight2{
+  color:#fff;
+  font-weight:bold;  
+  font-size:40px;
+}
+.highlight3{
+  color:#ca0b0b;
+  font-weight:bold;  
+  font-size:40px;
+}
+header input{
+	position:relative;
+
+}
+header input[type="text"]{
+	background-color:transparent;
+	border-bottom:2px solid white; 
+	color:white;
+	padding:10px;
+	right:10px;
+	top:5px;
+	width:400px;
+}
+/*SEARCH BUTTON BORDER*/
+.border{
+	border:1px solid white;
+	padding:10px;
+	border-radius:5px;
+
+}
+.border:hover{
+	transition:all 0.1s ease-in;
+	background-color:darkorange;
+	
+}
+/*header nav*/
+header nav{
+	float:right;
+	margin-top:10px;
+}
+/*SVG HOVER EFFECT*/
+
+svg:hover .home{
+	stroke:white;
+	 transition:all 0.1s ease-in;
+	 fill:transparent;
+}
+svg:hover .about{
+	 transition:all 0.1s ease-in;
+	 stroke:white;
+	 fill:transparent;
+}
+
+svg:hover .contact{
+	 transition:all 0.1s ease-in;
+	 stroke:white;
+	 fill:transparent;
+}
+
+svg:hover .food_menu{
+	 transition:all 0.1s ease-in;
+	 fill:white;
+}
+/*side bar*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:auto;
+    background-color: #000;
+    position: absolute;
+    border-right:3px solid green;
+    height: 574px;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.rect{
+	position:absolute;
+	bottom:30px;
+	margin-left:-350px;		
+	width:85%;
+	height:500px;
+	left:500px;
+	background-color:transparent;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pizza_02.jpg);
+	
+}
+.rect h1{
+	color:white;
+	font-size:100px;
+	text-align:center;
+	margin-top:50px; 
+	opacity:0.94;
+	
+}
+.rect p{
+	color:white;
+	text-align:justify;
+	font-size:25px;
+	margin-left:40px;
+	margin-right:40px;
+	
+}
+.contentartas{
+	position:relative;
+	top:40px;
+}
+.page-wrap{
+	margin-left:11%;
+	color:white;
+	float:left;
+	width:60%;
+	font-weight:bold;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pizza_02.jpg);
+
+}
+.page-wrap article{
+	padding:10px;
+	margin:10px;
+}
+aside.sidebar{
+	float:right;
+	width:20%;
+	color:white;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pizza_02.jpg);
+	font-weight:bold;
+	margin-right:30px;
+	padding:20px;	
+}
+.slider
+{
+	padding-top:60px;
+	width:100%;
+	height:360px;
+	float:right;
+}
+.slideshow
+{
+	margin-left:30px;
+	position:absolute;
+	width:60%;
+	height:auto;
+	border: 7px solid;	
+
+}
+.slideshow img
+{
+	width:100%;
+	height:400px;
+	overflow:hidden;
+	
+}
+.center
+{
+	position:relative;
+	left:0;
+	top:0;
+	margin-top:185px;
+	z-index:1000;
+}
+.center img
+{
+	width:100%;
+}
+.center #prev
+{
+	float:right;
+	margin-right:235px;
+}
+.center #next
+{
+	float:left;
+	margin-left:37px;
+}
+.center #prev,
+.center #next
+{
+	width:80px;
+	height:80px;
+	background-color:darkgrey;
+	text-decoration:none;
+	text-align:center;
+	line-height:85px;
+	border:2px green solid;
+	border-radius:100px;
+	opacity:0.89;
+}
+.center #prev:hover,
+.center #next:hover
+{
+	opacity:1;
+	transition:all 0.1s ease-in;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<svg width="45" height="45" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g class="layer">
+  <title>background</title>
+  <rect fill="none" height="130" id="canvas_background" width="130" x="-1" y="-1"/>
+ </g>
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_5">
+   <circle cx="22.188942" cy="22.434979" fill="none" id="svg_2" r="21.281612" stroke="#ffffff" stroke-miterlimit="10" stroke-width="2"/>
+   <circle cx="21.859663" cy="9.018527" fill="none" id="svg_3" r="4.256317" stroke="#ffffff" stroke-miterlimit="10" stroke-width="2"/>
+   <path d="m26.10891,34.501418l0,-8.787159l0,-3.659267l0,-5.230113c-0.32129,-0.043562 -0.653994,-0.074186 -1.002105,-0.074186l-6.448629,0c-2.197099,0 -3.978747,0.922149 -3.978747,2.058661c0,0.962693 1.282878,1.764505 3.006887,1.989651c0.11014,0.449429 0.183757,0.911797 0.183757,1.393575l0,12.354988c0,2.273456 -1.288584,4.257068 -3.21233,5.356919c0.214574,0.526634 0.832615,0.915679 1.591042,0.915679l11.2092,0c0.822343,0 1.477478,-0.461506 1.628136,-1.058013c-1.793632,-1.133062 -2.977212,-3.065348 -2.977212,-5.260736z" fill="none" id="svg_4" stroke="#ffffff" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+ </g>
+</svg>
