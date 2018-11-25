@@ -1,0 +1,313 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  font-family: system-ui, sans-serif;
+  
+  /* this breaks position sticky in Firefox */
+  /* overflow-x: hidden; */
+}
+header {
+  grid-column: 1 / 3;
+  background: #111;
+  color: white;
+  padding: 1.5rem;
+  border-bottom:3px white solid;
+}
+/*PIZZA DI CARLO LOGO*/
+#svgimg{
+  width:70px;
+  height:70px;
+  float:left;
+}
+#logo {
+    width: 25%;
+    padding: 10px;
+    float:left;
+}
+/*NAV MENU*/
+nav {
+  white-space: nowrap;
+  background: #111;
+  
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top:20px;
+  text-align:center;
+}
+/* Only stick if you can fit */
+@media (min-height: 300px) {
+  nav ul {
+    position: sticky;
+    top: 0;
+  }
+}
+nav ul li a {
+  display: block;
+  margin:0.4rem 1.35rem;
+  padding-bottom:2rem;
+  color: white;
+  text-decoration: none;
+}
+nav ul li a.current {
+  background: black;
+}
+main {
+  padding-bottom: 7rem;
+}
+section, #section-2 {
+  padding: 2rem;
+  margin: 0 0 2rem 0;
+  background-image:;
+}
+
+.welcome{
+  text-align:center;
+  font-size:7vw;
+  font-family: helvetica,sans-serif;
+  color:white;
+}
+.wlcmprgph{
+  color:white;
+}
+#section-1{
+  /* Background Image */
+    background-image: url("../images/pizza_01.jpg");
+    opacity: 0.9;
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+footer {
+  grid-column: 1 / 3;
+  padding:20px;
+  color:#fff;
+  background-color:darkgreen;
+  text-align: center;
+}
+.icon-nav-home, .icon-nav-about, 
+.icon-nav-contact, .icon-nav-menu, 
+.icon-nav-services{
+  stroke:white;
+  height:50px;
+  width:50px;
+}
+.icon-search{
+  stroke:white;
+  border:1px solid white;
+  padding:5px;
+  border:none;
+  border-right:1px solid white;
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+  border-bottom-left-radius:0px;
+  border-top-left-radius:0px;  
+  border-top-right-radius:5px; 
+  border-bottom-right-radius:5px; 
+  background-color:transparent;
+  
+}
+/*SEARCH BAR*/
+.srchmenu{
+  position:relative;
+  top:5px;
+  float:right;
+  margin-right:20px;
+}
+.srchmenu .icon-search{
+  position:relative;
+  top:14px;
+  right:10px;
+}
+.srchmenu .srchtxtbx{
+  padding:11px;
+  padding-bottom:10px;
+  border:none;
+  border-bottom:1px solid;
+  border-left:1px solid;
+  border-top:1px solid;
+  color:white;
+  background-color:transparent;
+  border-top-right-radius:0px; 
+  border-bottom-right-radius:0px;
+  border-bottom-left-radius:5px;
+  border-top-left-radius:5px;
+  width:500px;
+}
+/*SVG HOVER*/
+svg:hover #use1{
+  stroke:magenta;
+  transition:all 0.1s ease-in;
+
+}
+svg:hover #use2{
+  stroke:cyan;
+  fill:transparent;
+  transition:all 0.1s ease-in;
+}
+svg:hover #use3{
+  stroke:green;
+  transition:all 0.1s ease-in;
+}
+svg:hover #use4{
+  stroke:orange;
+  transition:all 0.1s ease-in;
+}
+svg:hover #use5{
+  stroke:red;
+  transition:all 0.1s ease-in;
+}
+svg:hover #use6{
+  stroke:darkgreen;
+  transition:all 0.1s ease-in;
+}
+
+span{
+  display:block;
+}
+/* Product Feature*/
+.latest{
+  font-size:2.5vw;
+  text-align:center;
+}
+.pasta{
+  text-align:center;
+  padding-top:40px;
+}
+.product
+{
+  width:100%;
+  height:auto;
+  float:left; 
+  border-radius:5px;
+  background-color:#e6e6e6;
+  padding-bottom:50px;
+}
+.product_one
+{
+  width:232px;
+  height:auto;
+  float:left;
+  border-radius:7px;
+  background-color:#fff;
+  padding-bottom:15px;
+  border-bottom:3px solid darkgray;
+  border-left:1px solid darkgray; 
+  border-right:1px solid darkgray;
+  margin-right:10px; 
+  margin-left:44px;
+
+}
+.product_img
+{
+  width:230px;
+  float:left;
+  border:1px solid;
+  border-radius:7px;
+  overflow:hidden;
+}
+.product_img img
+{
+  width:100%;
+}
+.product_text
+{
+  width:230px;
+  float:left;
+  margin-top:10px;
+  padding-left:4px; 
+}
+.star_rating
+{
+  float:left;
+  width:230px;
+  margin-top:10px;
+  padding-left:4px;
+}
+.star_rating img
+{
+  width:21px;
+  float:left;
+  margin-right:5px;
+}
+.product_desc
+{
+  width:230px;
+  float:left;
+  font-size:14px;
+  margin-top:5px;
+  padding-left:4px;
+
+}
+.product_price
+{
+  width:230px;
+  float:left;
+  margin:top:10px;
+}
+.price
+{
+  float:left;
+  font-size:20px;
+  font-weight:bold; 
+  padding-left:4px;
+} 
+.button
+{
+  float:right;
+  padding:5px;
+  background-color:#ca280b;
+  border-radius:5px;
+  color:white;
+  margin-right:10px;
+  cursor:pointer;
+  font-weight:bold;
+
+
+}
+.button:hover{
+  background-color:orange;
+  color:black;
+  transition:all 0.1s ease-in;
+}
+/*sidebar*/
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+
+}
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+/*main-col*/
+article#main-col{
+  float:left;
+  width:65%;
+  padding:20px;
+  border-radius:5px;
+  background-color:#e6e6e6;
+}
+.dark{
+  padding:15px;
+  background:#111;
+  color:white;
+  margin-top:10px;
+  margin-bottom:10px;
+  border-radius:5px;
+}
+
+  
