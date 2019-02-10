@@ -1,0 +1,130 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:sans-serif, helvetica, Arial;
+}
+header{
+  margin:auto;
+  margin-top:20px;
+  width:97%;
+  height:77px;
+  background-color:#ffe900;
+
+}
+header .container .logo img{
+  width:113px;
+  position:relative;
+  right:20px;
+  bottom:20px;
+  display:block;
+  float:left;
+}
+header nav{
+  float:left;
+  margin-left:-30px;
+}
+
+header nav ul{
+  margin:30px 20px;
+  padding:0;
+  list-style:none 
+}
+header nav ul li{
+  display:inline;
+}
+header nav ul li a{
+  text-decoration:none;
+  color:black;
+  padding:30px 20px 30px 20px;
+}
+header nav ul li a:hover{
+  background-color:#ffd313;
+}
+.menu-links{
+  margin:0 auto;
+  margin-top:29px;
+  padding:0;
+}
+.menu-links .others{
+  margin:0 auto;
+  padding:0;
+  width:79%;
+  height:65px;
+  background-color:#fff880;
+
+}
+.img-section{
+  width:91%;
+  margin: 0 auto;
+  padding: 0;
+  margin-top:40px; 
+}
+
+.img-section .container{
+  margin:0 auto;
+  padding:0;
+  width:1225px;
+  height:auto;
+  background-color:white;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap; 
+}
+.img-section .container .box{
+  width:296px;
+  height:360px;
+  background-color:#ffe900; 
+  margin:5px;
+  box-sizing:border-box;
+  display:inline-block; 
+}
+.img-section .container .box1{
+  border-top-left-radius:40px; 
+  width:602px;
+  height:360px;
+}
+.img-section .container .box1 .imgbox{
+  position:relative;  
+}
+.img-section .container .box1 .imgbox img{
+  border-top-left-radius:40px; 
+  width:602px;
+  height:360px;
+}
+.img-section .container .box2 .imgbox2{
+  position:relative;  
+}
+.img-section .container .box2 .imgbox2 img{
+  max-width:100%;
+}
+.img-section .container .box3 .imgbox3{
+  position:relative;  
+}
+.img-section .container .box3 .imgbox3 img{
+  max-width:100%;
+}
+.img-section .container .box4 .imgbox4{
+  position:relative;  
+}
+.img-section .container .box4 .imgbox4 img{
+  max-width:100%;
+}
+.img-section .container .box5 .imgbox5{
+  position:relative;  
+}
+.img-section .container .box5 .imgbox5 img{
+  max-width:100%;
+}
+.img-section .container .box6 .imgbox6{
+  position:relative;  
+}
+.img-section .container .box6 .imgbox6 img{
+  max-width:100%;
+}
+.img-section .container .box7 .imgbox7{
+  position:relative;  
+}
+.img-section .container .box7 .imgbox7 img{
+  max-width:100%;
+}
+
